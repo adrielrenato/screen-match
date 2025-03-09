@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.desafio1;
+
 public class Aluno {
     String nome;
     int idade;

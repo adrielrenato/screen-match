@@ -1,3 +1,5 @@
+package br.com.alura.screenmatch.desafio1;
+
 public class Musica {
     /* titulo, artista, anoLancamento, avaliacao e numAvaliacoes,
      e métodos para exibir a ficha técnica, avaliar a música e

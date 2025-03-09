@@ -1,6 +1,4 @@
-import br.com.alura.screenmatch.modelos.CalculadoDeTempo;
-import br.com.alura.screenmatch.modelos.Filme;
-import br.com.alura.screenmatch.modelos.Serie;
+import br.com.alura.screenmatch.modelos.*;
 
 public class Principal {
     public static void main(String[] args) {
@@ -35,5 +33,14 @@ public class Principal {
         calculadora.inclui(outroFilme);
         calculadora.inclui(serie);
         System.out.println(calculadora.getTempoTotal());
+
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(meuFilme);
+
+        Episodio episodio = new Episodio();
+        episodio.setNumero(1);
+        episodio.setSerie(serie);
+        episodio.setTotalDeVisualizacao(300);
+        filtro.filtra(episodio);
     }
 }
