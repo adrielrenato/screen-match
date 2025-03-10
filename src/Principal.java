@@ -1,6 +1,7 @@
 import br.com.alura.screenmatch.modelos.*;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Principal {
     public static void main(String[] args) {
